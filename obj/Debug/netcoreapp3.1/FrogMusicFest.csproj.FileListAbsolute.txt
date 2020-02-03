@@ -148,8 +148,6 @@ C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\FrogMus
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\FrogMusicFest.Views.dll
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\FrogMusicFest.Views.pdb
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.Views.pdb
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.dll
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.pdb
@@ -157,3 +155,8 @@ C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\P
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Index.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Kontakt\Index.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\ONama\Index.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cache

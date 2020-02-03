@@ -1,8 +1,103 @@
 ﻿@page
-@model FrogMusicFest.KontaktModel
-@{
-    ViewData["Title"] = "Kontakt";
+@model ContactModel
+@using Microsoft.AspNetCore.Mvc.RazorPages
+@using MimeKit
+@using MailKit.Net.Smtp
+@functions{
+    public class ContactModel : PageModel
+    {
+        string username = "pomorange88@gmail.com";
+        string password = "pilipovic996";
+        string privateEmail = "pomorange88@gmail.com";
+
+        [BindProperty]
+        public string Name { get; set; }
+
+        [BindProperty]
+        public string Email { get; set; }
+
+        [BindProperty]
+        public string Message { get; set; }
+
+        public string PostedMessage { get; set; } = "";
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            SendMail(Name, Email, Message);
+            return Redirect("/Kontakt/?pb=1");
+        }
+
+        public void OnGet(int id)
+        {
+            if (Request.QueryString.HasValue && Request.QueryString.Value.Contains("pb=1"))
+            {
+                PostedMessage = "Vaš e-mail je poslat!";
+            }
+        }
+
+        public void SendMail(string name, string email, string messageBody)
+        {
+            var massege = new MimeMessage();
+            massege.From.Add(new MailboxAddress(name, privateEmail));
+            massege.To.Add(new MailboxAddress("Nesto", privateEmail));
+            massege.Subject = "Poruka korisnika";
+            massege.Body = new TextPart("plain")
+            {
+
+                Text = messageBody + ". Poruku poslao korisnik ciji je e-mail: " + Email
+            };
+
+            using (var client = new SmtpClient())
+            {
+                client.Connect("smtp.gmail.com", 587, false);
+                client.Authenticate(username, password);
+                client.Send(massege);
+                client.Disconnect(true);
+            }
+        }
+    }
 }
 
-<h1>Kontakt</h1>
+<h2>@ViewData["Title"]</h2>
+
+<div class="row">
+    <div class="col-md-6 float-md-right">
+        <h2 class="text-center text-primary">Kako do nas?!</h2>
+
+        <div class="mapa">
+            <div id="mymap-canvas" class="mapa-div">
+                <iframe class="mapa-iframe" src="https://maps.google.com/maps?q=zabalj%20mali%20stadion&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+            <a class="googlemaps-html" href="https://www.embed-map.com" id="enable-mapdata"></a>
+
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <form method="post">
+            <h2 class="text-center text-primary">Kontaktirajte nas </h2>
+            <h3>@Model.PostedMessage</h3>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Ime</label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Message" class="control-label">Poruka</label>
+                <textarea asp-for="Message" rows="5" cols="84"></textarea>
+            </div>
+            <button class="btn-primary" type="submit" value="submit">Pošalji</button>
+        </form>
+        <address>
+            <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        </address>
+    </div>
+
+</div>
+
 
