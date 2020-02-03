@@ -4,6 +4,7 @@
 @using MimeKit
 @using MailKit.Net.Smtp
 @functions{
+    @*Kreiranje modela za slanje mail-a*@
     public class ContactModel : PageModel
     {
         string username = "pomorange88@gmail.com";
@@ -59,7 +60,7 @@
 }
 
 <h2>@ViewData["Title"]</h2>
-
+@*Google mapa*@
 <div class="row">
     <div class="col-md-6 float-md-right">
         <h2 class="text-center text-primary">Kako do nas?!</h2>
@@ -73,6 +74,7 @@
         </div>
 
     </div>
+    @*Kontakt forma*@
     <div class="col-md-6">
         <form method="post">
             <h2 class="text-center text-primary">Kontaktirajte nas </h2>
