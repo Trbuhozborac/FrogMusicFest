@@ -2,12 +2,12 @@
 @model FrogMusicFest.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Izmeni";
 }
 
-<h1>Edit</h1>
+<h1>Izmeni</h1>
 
-<h4>Izvodjac</h4>
+<h4>Izvodjač</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -35,14 +35,14 @@
                 <span asp-validation-for="Izvodjac.VremeNastupa" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Sačuvaj" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Index">Nazad na listu Izvodjača</a>
 </div>
 
 @section Scripts {
