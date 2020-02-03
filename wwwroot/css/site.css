@@ -69,3 +69,200 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+.carousel .carousel-item {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+        background-image: url(../images/concert-984276_640.jpg);
+    }
+
+.carousel .carousel-item:nth-of-type(2) {
+        background-image: url(../images/crowd-1056764_1280.jpg);
+    }
+
+.carousel .carousel-item:last-of-type {
+        background-image: url(../images/guitar-756326_640.jpg);
+    }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.slider {
+    margin-bottom: 30px;
+}
+
+.section-stories {
+    position: relative;
+    padding: 15rem 0;
+    margin-top: -200px;
+}
+
+.story {
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    padding: 6rem;
+    padding-left: 9rem;
+    font-size: 1.6rem;
+    transform: skewX(-12deg);
+}
+
+
+
+.story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative;
+}
+
+.story__img {
+    height: 100%;
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .6s;
+}
+
+.story__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    backface-visibility: hidden;
+}
+
+.story__text {
+    transform: skewX(12deg);
+}
+
+.margin-top-kontakt {
+    margin-top: -190px;
+}
+
+.kumova-klasa {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.border-contact {
+    padding: 50px;
+    border: .5px solid black;
+    margin: 20px;
+}
+
+.border {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.bump-up img {
+    border: 2px solid #ccc;
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+    .bump-up img:hover {
+        margin-top: 2px;
+    }
+
+.margin-top {
+    margin-top: 70px;
+}
+
+.cool-border {
+    box-shadow: 0 0 5px black;
+}
+
+.box:hover {
+    border: 1px solid grey;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .15;
+    overflow: hidden;
+}
+
+.bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-prvi {
+    margin-left: 50px;
+}
+
+.story-drugi {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.address {
+    box-shadow: 0 0 1px gray;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#mymap-canvas .text-marker {
+}
+
+.map-generator {
+    max-width: 100%;
+    max-height: 100%;
+    background: none;
+}
+
+.mapa {
+    overflow: hidden;
+    resize: none;
+    max-width: 100%;
+    width: 100%;
+    height: 444px;
+}
+
+.mapa-div {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.mapa-iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    frameborder ="0";
+}
+
