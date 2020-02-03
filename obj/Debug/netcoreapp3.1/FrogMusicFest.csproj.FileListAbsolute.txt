@@ -153,6 +153,7 @@ C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMus
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.Views.pdb
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.dll
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.pdb
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Bendovi\Izvodjaci.cshtml.g.cs
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Kontakt\Kontakt.cshtml.g.cs
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\ONama\ONama.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Pocetna.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Index.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Kontakt\Index.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\ONama\Index.cshtml.g.cs
