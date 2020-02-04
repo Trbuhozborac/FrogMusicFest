@@ -176,10 +176,10 @@ C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\runtime
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Create.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Delete.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Details.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Edit.cshtml.g.cs
 C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\Razor\Pages\Izvodjaci\Index.cshtml.g.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pipi\source\FrogMusicFest\FrogMusicFest\obj\Debug\netcoreapp3.1\FrogMusicFest.MvcApplicationPartsAssemblyInfo.cache
